@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Slab:wght@100..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Slab:wght@100..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Slab:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../ node_modules/flowbite";
+
+@layer base{
+    html{
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+   
+  font-style: normal;
+}
+     
+}
+
+   /* html{
+       font-family: "Cinzel", serif;
+       font-optical-sizing: auto;
+        
+       font-style: normal;
+ } */
+
+     /* html{
+           font-family: "Playfair Display", serif;
+           font-optical-sizing: auto;
+           
+           font-style: normal;
+         } */
+
+
+      /* html {
+         font-family: "Cormorant Garamond", serif; 
+         font-optical-sizing: auto; 
+         font-style: normal;
+          
+        } */
+
+
+@layer base{
+    .para{
+         
+          font-family: "Plus Jakarta Sans", sans-serif; 
+          font-optical-sizing: auto;  
+          font-style: normal;
+           
+    }
+}
+
+@layer components{
+    .heading{
+        @apply text-5xl font-bold text-[#4A3B32]
+    }
+    .heading-line{
+        @apply bg-[#4A3B32] w-12 py-px
+    }
+}
